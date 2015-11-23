@@ -2,23 +2,30 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="keywords" content="まど無職,まどマギ,無職,スロット,Twitter,どうぶつしょうぎ" />
+		<meta name="keywords" content="まど無職,まどマギ,無職,どうぶつしょうぎ,スロット" />
 		<meta name="description" content="まど無職のアプリ一覧" />
 		<title>まど無職のアプリ</title>
 		<link rel="shortcut icon" type="image/jpg" href="/images/mado.jpg">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<style type="text/css">
-			body { padding-top: 110px; padding-bottom: 70px; }
-			.navbar-right { margin-right: 1em; }
+			.navbar-text{margin: 1em;}
+			.navbar {min-height: 1em;}
+			.navbar-right {margin-right: 1em;}
+			.text-right {margin-right: 1em;}
+			hr {
+			  color: #696969;
+			  border-style: solid none;
+			  border-width: 1px 0;
+			  margin: 18px 0;
+			}
 		</style>
 	</head>
 	<body>
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<h2 class="navbar-text">まど無職のアプリ</h2>
-			<a href="https://twitter.com/a_month_only" role="button" class="btn navbar-btn btn-default navbar-right">Twitter <img src="/images/twitter.png" class="glyphicon"></a>
+		<nav class="navbar navbar-inverse navbar-static-top">
+			<p class="navbar-text">まど無職のアプリ</p>
+			<p class="navbar-text navbar-right">Last Update: 2015/11/23</p>
 		</nav>
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<ins class="adsbygoogle"
@@ -41,6 +48,9 @@
 		</script>
 		<br/>
 		<div class="container">
+			<div class="row">
+				 <h1 class="text-center">まど無職のアプリ</h1>
+			</div>
 			<div class="row">
 				<div class="col-xs-3">
 					<a href="http://anihai.net"><img src="/images/anihai.png" class="img-thumbnail" /></a>
@@ -74,9 +84,11 @@
 				</div>
 			</div>
 		</div>
-		<br/>
-		<nav class="navbar navbar-inverse navbar-fixed-bottom">
-			<p class="navbar-text navbar-right">Last Update: 2015/11/07</p>
-		</nav>
+		<div class="container-fluid">
+			<hr>
+			<p class="text-right lead">
+			  by <a href="https://twitter.com/a_month_only">まど無職</a>
+			</p>
+		</div>
 	</body>
 </html>
